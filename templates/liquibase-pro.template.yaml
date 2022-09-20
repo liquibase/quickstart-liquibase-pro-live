@@ -54,7 +54,7 @@ Metadata:
           - IsAutomatedTest
     ParameterLabels:
       CodePipelineS3BucketName:
-        default: Code Pipeline S3 bucket name for storing artifacts
+        default: CodePipeline S3 bucket name for storing artifacts
       DatabaseUsernameStage:
         default: Database username for Staging
       DatabasePasswordStage:
