@@ -331,7 +331,6 @@ Parameters:
     Default: ""
 Conditions:
   UsingDefaultBucket: !Equals [!Ref QSS3BucketName, aws-quickstart]
-  IsCodePipelineS3BuckeEmpty:  !Equals [!Ref "CodePipelineS3BucketName", ""]
 Resources:
   VPCStack:
     Type: AWS::CloudFormation::Stack
