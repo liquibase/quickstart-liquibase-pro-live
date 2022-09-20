@@ -62,7 +62,7 @@ Metadata:
       AvailabilityZones:
         default: Availability Zones
       CodePipelineS3BucketName:
-        default: S3 bucket for storing artifacts
+        default: CodePipeline S3 bucket name for storing artifacts
       DatabaseUsernameStage:
         default: Database username for Staging
       DatabasePasswordStage:
